@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+non_price_formula:
+  value: company.sales_growth_rate > company.expenses_growth_rate
+  weightage: 1
+  price_dependent: false
+
+price_formula:
+  value: (company.quarterly_growth_rate / company.pe_ratio) > 2
+  weightage: 1
+  price_dependent: true
+

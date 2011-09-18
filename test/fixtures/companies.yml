@@ -1,0 +1,12 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+ashok_leyland:
+  id: 1
+  nse_symbol: ASHOKLEY
+  stockhive_code: 10510001.0
+  name: Ashok Leyland Ltd
+  listing_date: 1965-12-10
+  face_value: 10
+  closing_price: 36.75
+  sector_id: 44
+  
+  

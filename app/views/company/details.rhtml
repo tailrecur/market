@@ -1,0 +1,12 @@
+<p><%= @company.name %></p>
+<p>
+    <% @passing_formulae.each do |formula|%>
+        <div><%= formula.value %> - <%= formula.weightage %></div>
+    <% end %>
+</p>
+<br/>
+<p>
+    <% @extrapolated_scores.each_pair do |formula, price|%>
+        <div><%= formula.value %> - <%= formula.weightage %> - <%= price %></div>
+    <% end %>
+</p>
